@@ -1,9 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('antd/dist/antd.css');
 
+/* 
 .App {
   width:65%;
-}
+} */
 
+@media  (max-width: 975px) {
+  .App {
+    width:90%;
+  }
+}
+@media  (min-width: 975px) {
+  .App {
+    width:65%;
+  }
+}
 
 .flexSpaceBetweenVertical{
   padding: 1rem 0;
@@ -12,15 +24,16 @@
   flex-direction: column;
   align-items: center;
 }
-.buttons > *{
-  border-radius: 10px;
-  height: 3rem;;
+/* .buttons > *{
+  border-radius: 0.6rem;
+  height: 3rem;
   font-weight: 500;
 font-size: larger;
 border: transparent;
-}
-.buttons{
+} */
+/* .buttons{
   display: flex;
   justify-content: space-around;
-  column-gap: 10px;
-}
+  column-gap: 0.6rem;
+  flex-wrap: wrap;
+} */
